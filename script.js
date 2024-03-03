@@ -53,7 +53,7 @@ let playRound = playerChoice => {
         }
 
         if (computerWon === 5) {
-            h2.textContent = `You lost the game ✨${playerName}✨!`;
+            h2.textContent = `You lost the game ${playerName}😔!`;
             gameOver = true;
         }
 
